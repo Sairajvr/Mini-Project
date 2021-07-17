@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="background_styles.css">
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js" defer></script>
+      <title>build pc</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+ 
+ }
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:crimson;
+  font-size:18px;
+  color:white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-weight:bold;
+}
+
+input[type=submit]:hover {
+  box-shadow:0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3; 
+}
+
+.container {
+  float:left;
+  width:50%;
+  border-radius: 5px;
+  background-color:none;
+  padding: 20px;
+  color:white;
+}
+.container2{
+  float: left;
+  width:50%;
+  border-radius: 5px;
+  background-color:none;
+  padding: 20px;
+  color:white;
+}
+.container2 img{
+  width:50px;
+  border:2px solid white;
+  border-radius:50px;
+  }
+  @media only screen and (max-width:620px) {
+  /* For mobile phones: */
+.container,.container2{
+    width:100%;
+  }
+}
+
+
+
+      </style>
+
+    </head>
+  <body >
+
+      <nav class="navbar">
+        <div class="brand-title">Build Your PC</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="../Page2/page2.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+   
+<div class="container2">
+  <div class="address">
+     <img src="https://i.pinimg.com/originals/b3/da/17/b3da17c6c6f471a0becdd195efb445e1.jpg" class="twitter-icon">
+     <h3>Address</h3>
+    <p>No 234,forum mall,officers line,vellore,632001. </p> 
+  </div>
+  
+  <div class="Phone">
+   
+    <img src="data:image/png;base64,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" class="twitter-icon">
+    <h3>Phone</h3>
+    <p>0416-2225556 </p> 
+  </div>
+  
+  <div class="Email">
+    
+    <img src="data:image/jpeg;base64,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">
+
+    <h3>Email</h3>
+    <p>HOMIESEMAIL@gmail.com</p> 
+ </div>
+</div>
+
+<div class="container">
+  <h3>Contact Form</h3>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">City</label>
+    <select id="country" name="country">
+      <option value="australia">Vellore</option>
+      <option value="canada">Chennai</option>
+      <option value="usa">Madurai</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+  
+<footer class="site-footer">
+  
+  <div class="social">
+    <ul>
+      <li class="anc">
+        <a href="#" target="_blank">
+          <img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" alt="Twitter Logo" class="twitter-icon"></a>
+      </li>
+      <li class="anc">
+        <a href="#" target="_blank">
+          <img src="https://www.mchenryvillage.com/images/instagram-icon.png" alt="Instagram Logo" class="instagram-icon"></a>
+      </li>
+      <li class="anc">
+        <a href="#" target="_blank">
+          <img src="http://www.iconarchive.com/download/i54037/danleech/simple/facebook.ico" alt="Facebook Logo" class="facebook-icon"></a>
+      </li>
+      <li class="anc">
+        <a href="#" target="_blank">
+          <img src="http://icons.iconarchive.com/icons/marcus-roberto/google-play/256/Google-plus-icon.png" alt="Googleplus Logo" class="googleplus-icon"></a>
+      </li>
+      <li class="anc">
+        <a href="#" target="_blank">
+          <img src="https://lh3.googleusercontent.com/j_RwVcM9d47aBDW5DS1VkdxUYCkDUCB6wZglv4x-9SmsxO0VaFs7Csh-FmKRCWz9r_Ef=w170" alt="Youtube Logo" class="youtube-icon"></a>
+      </li>
+    </ul>
+  </div>
+  <p class="t">copy rights @  Build Your PC</p>
+  </footer>
+</body>
+</html>
